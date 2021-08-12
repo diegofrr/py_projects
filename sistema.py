@@ -47,4 +47,4 @@ while True:
 
 	#CASO NENHUMA OPÇÃO SEJA EQUIVALENTE AS ANTERIORES O SISTEMA CONTINUA NO LOOP
 	else:
-		print('Opção inválida')
+		print('Opção inválida!')
