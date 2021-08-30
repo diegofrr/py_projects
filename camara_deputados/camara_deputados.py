@@ -2,7 +2,7 @@ import requests
 
 
 nome_procurar = input('Nome do deputado\n')
-r = requests.get('https://dadosabertos.camara.leg.br/api/v2/deputados?nome=' + nome_procurar)
+r = requests.get(f'https://dadosabertos.camara.leg.br/api/v2/deputados?nome={nome_procurar}')
 
 
 lista_dados = r.json().get('dados')
